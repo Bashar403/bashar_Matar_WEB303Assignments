@@ -20,6 +20,29 @@ $(document).ready(function () {
     });
   });
 
+    function loadContent(page) {
+    // Hide the content with animation
+    $("#content").fadeOut(400, function () {
+      // Load content using AJAX
+      $.ajax({
+        url: page,
+        type: "GET",
+        dataType: "html",
+        success: function (data) {
+          // Update the content div with the loaded data
+          $("#content").html(data);
+          // Show the content with animation
+          $("#content").fadeIn(400);
+        },
+        error: function () {
+          // Handle any errors here
+          console.error("Error loading content.");
+        },
+      });
+    });
+}
+
+
   
 
 
