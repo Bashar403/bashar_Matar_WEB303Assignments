@@ -28,23 +28,19 @@ $(function () {
                     parseFloat(storedLon)
                 );
 
-                // Display welcome message for returning visitor
-                displayWelcomeMessage("Welcome back!");
-
-                // Display distance traveled
-                displayDistance(distance);
+                displayWelcomeMessage("Welcome back!");     // Display welcome message for returning visitor
+                displayDistance(distance);                  // Display distance traveled
             } else {
-                // First-Time User Welcome
-                displayWelcomeMessage("Welcome to the page for the first time!");
+                displayWelcomeMessage("Welcome to the page for the first time!"); // First-Time User Welcome
             }
 
-            // Update Local Storage
-            localStorage.setItem("location", `${latitude},${longitude}`);
+            localStorage.setItem("location", `${latitude},${longitude}`);   // Update Local Storage
         }, function (error) {
             // Handle geolocation error
             displayErrorMessage("Geolocation is blocked. Please enable it to use the application.");
         });
-    } else {
+    } 
+    else {
         // Geolocation not available
         displayErrorMessage("Geolocation is not supported in your browser.");
     }
