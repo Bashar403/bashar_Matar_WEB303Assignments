@@ -1,0 +1,59 @@
+[
+    {
+      "firstName": "Harry",
+      "lastName": "Potter",
+      "age": 17,
+      "role": "Wizard",
+      "house": "Gryffindor",
+      "date": "1997-06-26"
+    },
+    {
+      "firstName": "Hermione",
+      "lastName": "Granger",
+      "age": 17,
+      "role": "Witch",
+      "house": "Gryffindor",
+      "date": "1997-06-26"
+    },
+    {
+      "firstName": "Ron",
+      "lastName": "Weasley",
+      "age": 17,
+      "role": "Wizard",
+      "house": "Gryffindor",
+      "date": "1997-06-26"
+    },
+    {
+      "firstName": "Draco",
+      "lastName": "Malfoy",
+      "age": 17,
+      "role": "Wizard",
+      "house": "Slytherin",
+      "date": "1997-06-26"
+    },
+    {
+      "firstName": "Severus",
+      "lastName": "Snape",
+      "age": 38,
+      "role": "Wizard",
+      "house": "Slytherin",
+      "date": "1997-07-02"
+    },
+    {
+      "firstName": "Albus",
+      "lastName": "Dumbledore",
+      "age": 115,
+      "role": "Wizard",
+      "house": "Gryffindor",
+      "date": "1997-07-02"
+    },
+    {
+      "firstName": "Sirius",
+      "lastName": "Black",
+      "age": 36,
+      "role": "Wizard",
+      "house": "Gryffindor",
+      "date": "1997-07-08"
+    }
+  ]
+  
